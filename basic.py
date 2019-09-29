@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 print("I'll will be there for you!!!"*10);
 
 print(1+1)
@@ -24,11 +24,14 @@ I'll be there for you
 
 
 print("sdasda\"quote\"")
-=======
+
 print("I'll will be there for you!!!"*10);
 
 print(1+1)
 print(1*3)
 print(4/2)
 print(1<<2) #bit operator
->>>>>>> 08d88a642a303f354b4244c85b49da2b2218f819
+
+name = input("what is your name? ")
+age = int(input("what is you age? ")) #py takes input in the form of string
+print(f"Hi {name}! Your age is {age}")
